@@ -1,0 +1,11 @@
+{
+  "name": "interactive3dwebapp",
+  "version": "0.1.0",
+  "description": "Interactive Three.js viewer with hotspots",
+  "license": "BSL-1.1",
+  "businessSourceLicense": {
+    "owner": "tech4Art Conseil",
+    "changeDate": "2031-02-03",
+    "changeLicense": "Apache-2.0"
+  }
+}
