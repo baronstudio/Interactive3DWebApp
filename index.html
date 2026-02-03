@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Interactive3DWebApp</title>
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.158.0/build/three.module.js"
+      }
+    }
+    </script>
+    <style>
+      html, body { height: 100%; margin: 0; }
+      body {
+        display: block;
+        height: 100%;
+        background: linear-gradient(to top, var(--bg-bottom, #ffffff), var(--bg-top, #aee1ff));
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      }
+      #viewer {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+      }
+      .credit {
+        position: absolute; right: 12px; bottom: 12px; color: #111; font-size: 13px; opacity: .8;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="viewer">
+      <div class="credit">Interactive3DWebApp @tech4art</div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

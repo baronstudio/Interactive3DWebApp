@@ -1,0 +1,15 @@
+# Ignorer fichiers volumineux 3D
+Model3D/*.glb*
+Model3D/*.blend*
+
+# Ignorer fichiers temporaires communs
+*.tmp
+*.bak
+
+# Node / OS (ajoutez d'autres règles si nécessaire)
+node_modules/
+Thumbs.db
+*.log
+
+*.blend
+*.glb

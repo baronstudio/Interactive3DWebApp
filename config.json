@@ -1,0 +1,57 @@
+{
+  "glbPath": "./Model3D/lumber_mill_wood_factory2.glb",
+  "fallbackGlb": "https://threejs.org/examples/models/gltf/DamagedHelmet/glTF-Binary/DamagedHelmet.glb",
+  "showAxes": false,
+  "cameraZoom": 2,
+  "DysplayHotSpotListe": false,
+  "showHotspotId": false,
+  "showHotspotTitle": false,
+  "hotspots": [
+    {
+      "id": "Car",
+      "title": "",
+      "objectName": "HSPT_001",
+      "position": null,
+      "color": "#FF5000",
+      "opacity": 0.95,
+      "size": 18,
+      "showLabelOnHover": true,
+      "contentMode": "iframe",
+      "content": "https://tech4art.fr/HOTSPOTS.md"
+    },
+    {
+      "id": "usine",
+      "title": "",
+      "objectName": "HSPT_002",
+      "position": null,
+      "color": "#FF5000",
+      "opacity": 0.95,
+      "size": 18,
+      "showLabelOnHover": true,
+      "contentMode": "text",
+      "content": "Centre de recyclage du bois et fabrication de panneaux MDF, OSB, agglomérés."
+    }
+  ],
+  "bgTop": "#aee1ff",
+  "bgBottom": "#ffffff"
+  ,
+  "animations": [
+    {
+      "id": "Path_001",
+      "objectName": "Sphere",
+      "clipName": "SphereAction",
+      "speed": 1.0,
+      "loop": "loop",
+      "autoplay": false,
+      "hotspotTrigger": "Car"
+    },
+    {
+      "id": "door_open",
+      "objectName": "Door_01",
+      "clipName": "Open",
+      "speed": 1.0,
+      "loop": "once",
+      "autoplay": false
+    }
+  ]
+}
